@@ -38,6 +38,6 @@ app.use(function (err, req, res, next) {
     res.send("<h1>Internal Server Error</h1>");
 });
 
-const server = app.listen(PORT, function () {
+app.listen(PORT, function () {
     console.log('Listening on port %d', PORT);
 });
